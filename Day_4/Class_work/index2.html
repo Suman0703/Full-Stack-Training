@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinational Selector</title>
+    <style>
+        #parent>h1{
+            background-color: chartreuse;
+        }
+        #container>div>div>p{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- Desendent Selector-->
+     <!--child selector-->
+<div id="parent">
+    <h1>Heading</h1>
+    <p>Child Paragraph</p>
+    <P>Sibling Paragraph</P>
+    <div>
+        <h1>Heading h1</h1>
+        <h2>Nested Heading</h2> 
+        <img src="" alt="">
+        <p>Nested Paragraph</p>
+        <h1>Heading h1</h1>
+    </div>
+</div>
+<div>
+    <h1> haeading h1</h1>
+</div>
+<!-- adjacent  sibling Selector-->
+ <!-- General sibling selector-->
+ <div id="container">
+    <h1>Heading H1</h1>
+    <p>paragraph</p>
+    <p>Next sibling Paragraph</p>
+    <div>
+     <h1>Heading H1</h1>
+     <p>Paragraph</p>
+     <div>
+        <p>New Paragraph</p>
+     </div>
+
+    </div>
+ </div>
+ 
+</body>
+</html>

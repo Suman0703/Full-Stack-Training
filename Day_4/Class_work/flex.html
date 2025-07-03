@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=di, initial-scale=1.0">
+    <title>Flex Display</title>
+    <style>
+        #parent{
+            border: 2px solid blueviolet;
+            height:500px;
+            width:50%;
+            margin:auto;
+            display:flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .child{
+            border: 1px solid red;
+            height: 100px;
+            width:200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child">
+         <p>This is paragraph</p>
+        </div>
+    </div>
+</body>
+</html>
