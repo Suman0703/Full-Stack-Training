@@ -1,7 +1,9 @@
 #key{
             display: flex;
             flex-direction: row;
-        }
+            color: white;
+          
+          }
         .c{
             margin-left:27%;
             color: red;
@@ -16,6 +18,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .nm{
           height:52px;
@@ -27,6 +30,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .r1{
           height:52px;
@@ -38,17 +42,19 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .bk{
           height:52px;
           border: 1px solid black;
           width:135px;
-          border-radius:3%;
+          border-radius:5%;
           margin:5px;
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .b{
           height:52px;
@@ -60,6 +66,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         
         .tb{
@@ -72,6 +79,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .s{
           height:52px;
@@ -83,6 +91,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .cp{
           height:52px;
@@ -94,17 +103,19 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .en{
           height:52px;
           border: 1px solid black;
           width:134px;
-          border-radius:3%;
+          border-radius:5%;
           margin:5px;
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .sh{
           height:52px;
@@ -116,6 +127,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .sh2{
            height:52px;
@@ -127,6 +139,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column; 
+          background-color: gray;
         }
         .ct{
           height:52px;
@@ -137,7 +150,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          flex-direction:column; 
+          flex-direction:column;
+          background-color: gray;
         }
         .sp{
           height:52px;
@@ -149,6 +163,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .z{
           height:52px;
@@ -160,6 +175,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .f1{
           height:22px;
@@ -171,6 +187,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .i{
           height:110px;
@@ -182,6 +199,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .n{
           height:52px;
@@ -194,6 +212,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .r{
           height:117px;
@@ -206,6 +225,7 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }
         .o{
           height:115px;
@@ -218,4 +238,5 @@
           align-items: center;
           justify-content: center;
           flex-direction:column;
+          background-color: gray;
         }

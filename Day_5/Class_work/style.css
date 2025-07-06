@@ -1,0 +1,91 @@
+#parent{
+    width:85%;
+    height:600px;
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:8px;
+    border-radius:8px;
+    margin: auto;
+}
+.box{
+    margin:5px;
+    border: 1px solid red;
+    border-radius:8px;
+}
+:root{
+    --primary-color:rgb(24, 239, 239);
+    --secondary-color:rgb(209, 119, 149);
+    --button-color:teal;
+    --font-color:rgb(196, 196, 30);
+    }
+#parent>div:nth-child(1){
+    background-color:var(--primary-color);
+}
+#parent>div:nth-child(2){
+    background-color:var(--primary-color);
+    grid-area:1/2/2/4;
+}
+#parent>div:nth-child(3){
+    background-color:var(--primary-color);
+}
+#parent>div:nth-child(4){
+    background-color:var(--secondary-color);
+}
+#parent>div:nth-child(5){
+    background-color:var(--secondary-color);
+}
+#parent>div:nth-child(6){
+    background-color:var(--secondary-color);
+    grid-area:2/3/4/5;
+}
+#parent>div:nth-child(7){
+    background-color:rgb(24, 57, 39);
+    grid-area:3/1/6/2;
+}
+#parent>div:nth-child(8){
+    background-color:rgb(84, 105, 105);
+}
+#parent>div:nth-child(9){
+    background-color:rgb(31, 31, 105);
+    grid-area:4/2/7/3;
+}
+#parent>div:nth-child(10){
+    background-color:rgb(5, 5, 49);
+}
+#parent>div:nth-child(11){
+    background-color:rgb(195, 195, 16);
+    grid-area:4/4/7/5;
+}
+#parent>div:nth-child(12){
+    background-color:rgb(88, 88, 7);
+
+}
+#parent>div:nth-child(13){
+    background-color:crimson;
+}
+#parent>div:nth-child(14){
+    background-color:rgb(207, 203, 203);
+}
+@media (max-width: 1000px){
+    #parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+}
+#parent>div:nth-child(1){
+    background-color:var(--button-color);
+}
+#parent>div:nth-child(2){
+    background-color:var(--button-color);
+    grid-area:1/2/2/4;
+}
+#parent>div:nth-child(3){
+    background-color:var(--button-color);
+}
+#parent>div:nth-child(4){
+    background-color:var(--secondary-color);
+}
+#parent>div:nth-child(5){
+    background-color:var(--secondary-color);
+}
