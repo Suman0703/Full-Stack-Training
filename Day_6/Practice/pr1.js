@@ -4,16 +4,16 @@ document.getElementById("heading").style.border = "1px solid blue";
 document.getElementById("heading").style.width = "300px";
 document.getElementById("heading").style.textAlign = "center";
 document.getElementById("H2").style.color = "pink";
-document.getElementById("h3").style.color = "Darkgreen";
+document.getElementById("h3").style.color = "green";
 
 //variables
 //let, var, const
-let sam = 1;
+let simran = 1;
 const samriti = 10;
 var muskan = 2;
 var muskan = 45;
 //let and const variables cannot be re-assigned
-console.log(sam);
+console.log(simran);
 console.log(samriti);
 console.log(muskan);
 
