@@ -1,0 +1,15 @@
+#parent{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    border: 1px solid black;
+    padding: 13px;
+}
+.h1{
+    border:1px solid black;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    width: 97%;
+}
