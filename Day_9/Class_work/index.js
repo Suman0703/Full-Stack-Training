@@ -31,8 +31,9 @@ async function showData(data) {
         const p4 = document.createElement("p")
         p4.innerText = ele.discount
         const productDiv = document.createElement("div")
+        // productDiv.classList.add(child);
         productDiv.style.border = "1px solid black"
-        productDiv.style.textAlign="center";
+        productDiv.style.textAlign = "center";
         productDiv.append(h2, img, p1, p2, p3, p4)
         parent.append(productDiv)
 
