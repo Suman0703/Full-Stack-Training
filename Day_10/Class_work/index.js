@@ -191,7 +191,7 @@ function renderProducts(arr) {
         let rating = document.createElement("p");
         rating.innerText = `Rating: ${el.rating}`;
 
-        //padhna aa ehnu
+        //imp
         let button = document.createElement("button");
         button.innerText = "Add to Cart";
         button.addEventListener("click", () => {
@@ -239,7 +239,7 @@ function handleFilter() {
 
     renderProducts(filteredProducts);
 }
-//pdh
+
 function addToCart(product) {
     for (let i = 0; i < cart.length; i++) {
         if (cart[i].id == product.id) {
@@ -253,7 +253,7 @@ function addToCart(product) {
 }
 
 
-//key ka name kuch bhi hoo sakta hai 
+//key name can be anything
 // function addToCart(el){
 //     localStorage.setItem("cartData",JSON.stringify(el))
 // }
@@ -284,3 +284,4 @@ setTimeout(() => {
 function cartPage() {
     window.location.href = "cart.html";
 }
+ 
