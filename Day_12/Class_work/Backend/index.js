@@ -14,6 +14,7 @@
 const express = require("express");
 //Invoke
 const app = express();
+
 //define default rouotes
 // app.get("/",(req,res)=>{
 //     res.status(200).send("Welcome to RB server");

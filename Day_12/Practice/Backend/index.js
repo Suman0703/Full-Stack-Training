@@ -36,10 +36,25 @@ const  fs = require("fs");
 //statics about a file
 //  console.log(fs.statSync("./test.txt"));
 
-//
+//is file or not
 // console.log(fs.statSync("./test.txt").isFile()); 
 
 //making folder
 
 // fs.mkdirSync("my-docs");
 //fs.mkdirSync("my-docs/a");
+
+
+//check if file exist
+// if (fs.existsSync('file.txt')) {
+//     console.log('File exists!');
+// } else {
+//     console.log('No file found!');
+// }
+
+//renaming a file
+// fs.rename('old.txt', 'new.txt', (err) => {
+//     if (err) throw err;
+//     console.log('File renamed!');
+// });
+ 
