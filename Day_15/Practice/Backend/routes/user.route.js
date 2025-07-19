@@ -6,7 +6,7 @@ const userRoute = express.Router();
 userRoute.post("/signup", userSignup);
 userRoute.get("/same-age", findUsersByAge);
 
-// ✅ New route: find name by user ID
+//  New route: find name by user ID
 userRoute.get("/name/:id", findUserNameById);
 
 module.exports = {
