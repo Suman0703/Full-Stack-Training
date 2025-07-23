@@ -1,5 +1,6 @@
 const { userModel } = require("../models/user.model");
 const bcrypt = require("bcrypt");
+const jwt= require("jsonwebtoken");
 
 
 const userSignup = async (req, res) => {
@@ -49,15 +50,19 @@ const userLogin = async (req, res) => {
     try {
         // Load hash from your password DB.
         bcrypt.compare(password, userExist.password, async (err, result) => {
+            //login time
+            const token = jwt.sign({ userID: userExist._id }, 'RB', { expiresIn: '1h' });
+
+
             if (!result) {
                 return res.status(400).send({ msg: "error while hashing" });
             } else {
-                return res.status(200).send({ msg: "user login successful" });
+                return res.status(200).send({ msg: "user login successful", token: token });
             }
         }); // true
 
     } catch (error) {
-        res.status(400).send({ error: error.message});
+        res.status(400).send({ error: error.message });
     }
 }
 module.exports = {
